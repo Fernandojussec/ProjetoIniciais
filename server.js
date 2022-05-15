@@ -12,7 +12,7 @@ app.get('/ola', (req, res) => {
 
     res.status(200).send({ message: 'Olá teste feito pelo git'})
 
-}
+})
 
 
 app.listen(3001, () => {
